@@ -6,7 +6,7 @@ javascript分页类
 
 方法：
 实例化 
-var k = new Killpage(arg1,arg2);//参数非必填;arg1为需要操作的jqury对象，arg2为每页显示数量
+var k = new Killpage(arg1,arg2);//参数非必填;arg1为需要操作的jqury对象，arg2为每页显示数量\n
 k.setMaxPrePage(num);//设置每页显示数量
 k.getDataFromServer("server.php",{});//返回Killpage对象，参数1必填，为需要获取数据的服务器地址;参数2非必填，为post的数据，格式为json对象
 k.syncTable();//返回Killpage对象，同步数据到jquery对象
